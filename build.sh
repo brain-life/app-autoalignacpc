@@ -4,7 +4,7 @@ cat > build.m <<END
 addpath(genpath('/N/u/brlife/git/vistasoft'))
 addpath(genpath('/N/u/brlife/git/jsonlab'))
 addpath(genpath('/N/soft/mason/SPM/spm8'))
-mcc -m -R -nodisplay -d compiled autoalign-matlab
+mcc -m -R -nodisplay -d compiled autoalignmatlab
 exit
 END
 matlab -nodisplay -nosplash -r build
